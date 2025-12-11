@@ -16,9 +16,7 @@ build_search_index = true
 
 generate_feeds = true
 
-taxonomies = [
-    { name = "tags" },
-]
+taxonomies = [{ name = "tags" }]
 
 [markdown]
 # Whether to do syntax highlighting
@@ -45,22 +43,21 @@ index_format = "elasticlunr_json"
 theme = "toggle"
 comment = false
 toc = true
+favicon = "/favicon.png"
 
 socials = [
-    { name = "github", url = "https://github.com/jomaway/", icon = "github" },
-    { name = "mastodon", url = "https://fosstodon.org/@jomaway", icon = "mastodon" },
+  { name = "github", url = "https://github.com/jomaway/", icon = "github" },
+  { name = "mastodon", url = "https://fosstodon.org/@jomaway", icon = "mastodon" },
 ]
 
 menu = [
-  {name = "posts", url = "/posts", weight = 1},
-  {name = "notes",  url = "/notes"},
-  {name = "projects", url = "/projects"},
+  { name = "posts", url = "/posts", weight = 1 },
+  { name = "notes", url = "/notes" },
+  { name = "projects", url = "/projects" },
   # {name = "github", url = "https://github.com/jomaway", newtab = true},
 ]
 
-stylesheets = [
-    "syntax-theme.css"
-]
+stylesheets = ["syntax-theme.css"]
 
 fancy_code = true
 dynamic_note = true
